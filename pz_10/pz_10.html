@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pz_10.css">
+    <script src="pz_10.js" defer></script>
+</head>
+<body onload="console.log('body loaded')">
+    <img src="https://i.pinimg.com/564x/e7/92/3b/e7923b35d13ef0dec425c4114eb1239a.jpg"
+        onload="addMessage('img load OK')"
+        onerror="addMessage('img load error')"/>
+    <img src="https://i.pinimg.com/474x/2b/8b/54/2b8b5453ac134f51af7bbdc997a8a716.jpg"
+        onload="addMessage('img load OK')"
+        onerror="addMessage('img load error')"/>
+    <p id="txt"></p>
+</body>
+</html>
